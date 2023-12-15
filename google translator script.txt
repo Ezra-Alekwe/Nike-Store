@@ -1,0 +1,1 @@
+  <script src="https://translate.google.com/translate_a/element.js?cb=NetflixTranslator"></script>

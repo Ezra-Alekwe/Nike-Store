@@ -1,0 +1,117 @@
+.navbar li{
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li{
+    padding-right: 35px;
+    display: flex;
+    
+}
+
+.navbar a{
+   text-decoration: none;
+   color:#000;
+}
+
+.navbar a:hover{
+    transition: 0.5s;
+    color:#fff;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    background:linear-gradient(
+        to right,
+        #bdc3c7,
+        #2c3e50
+    );
+}
+
+
+
+.searchbar input{
+    width: 200px;
+    height: 20px;
+   
+    border:none;
+    outline: none;
+}
+
+.searchbar{
+    margin-top: 20px;
+    padding-left: 3px;
+    border:1px solid #000;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.product ul{
+    list-style: none;
+
+}
+
+
+
+
+
+.product{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+ .back{
+    width: 380px;
+    height: auto;
+    border-radius: 5px;
+    background-color: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.layer{
+   
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.productimg img{
+    width:70px;
+    height: 40px;
+    object-fit: cover;
+}
+
+
+
+.items{
+    width:300px;
+    height: 70px;
+  display: flex;
+  
+  
+}
+
+.product-name{
+    font-weight: bold;
+}
+.product-name a{
+    text-decoration: none;
+    color:#000;
+}
+
+.stock{
+    padding-bottom: 20px;
+}
