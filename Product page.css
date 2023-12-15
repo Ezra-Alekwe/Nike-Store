@@ -60,9 +60,6 @@ body{
 }
 
 
-
-
-
 .product{
 
 display: flex;
@@ -72,7 +69,7 @@ align-items: center;
 
  .back{
     width: 380px;
-    height: auto;
+    height: 750px;
     border-radius: 5px;
     background-color: #fff;
 display: flex;
@@ -83,9 +80,10 @@ align-items: center;
 
 .layer{
    
-    display: flex;
+ display: flex;
 flex-direction: column;
 align-items: center;
+
 }
 
 .productimg img{
